@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing:border-box
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color: #ffffff;
+    border-bottom:3px solid  #f3f3f3;
+}
+#logoimg{
+    height:45px;
+}
+.nav_options{
+    display:flex;
+    justify-content: space-around;
+    min-width: 400px;
+    width: 42%;
+    text-transform: uppercase;
+}
+.navitems{
+    font-size: 14px;
+    color: #282c3f;
+    font-weight:700;
+    text-decoration: none;
+    padding: 28px 0 28px 0;
+    border-bottom:5px solid #ffffff;
+}
+.navitems:hover{
+    border-bottom:5px solid #ea0a59;
+}
+.navitems sup{
+    font-size: 10px;
+    color:#ff3f6c;
+    font-weight:600;
+}
+
+
+.searchbar{
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    min-width: 85px;
+    width:40%;
+    height: 40px;
+    background-color:#f5f5f6 ;
+    border-radius: 5px;
+    
+}
+.searchicon{
+    height:28px;
+    padding:5px 3px 0 3px;
+    background-color: #f5f5f6;
+    color: #696e79;
+
+
+}
+.searchinput{
+    font-size: 14px;
+    color:#696e79;
+    height:28px;
+    background-color:#f5f5f6;
+    padding:4px;
+    flex-grow:1;
+    border:0;
+
+}
+input:focus {
+    outline: none;   
+}
+
+.actioncontainer{
+    display:flex;
+    min-width: 100px;
+    width:12%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.actioncontainer a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#actionicon_profile{
+    height: 24px;
+}
+.actionicon{
+    height: 22px;
+}
+.actionname{
+    color:inherit;
+    text-decoration: none;
+}
+
+
+.bannerimage{
+    margin:40px 0;
+}
+.bannerimage img{
+    width:100%;
+}
+.offer1text{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.offer1text h{
+    color: #3e4152;
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 0.15em;
+}
+
+.offer1image{
+    max-width:50%;
+    display:flex;
+    flex-
+    flex-shrink: 1;
+}
